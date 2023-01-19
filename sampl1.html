@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>    
+    <script src =  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<nav style="background-color: rgb(233, 252, 252); class="navbar navbar-inverse navbar-fixed-top">
+        
+    <ul class="nav navbar-nav navbar-right">
+        <li><button class="btn btn-success navbar-btn">REGISTER</button></li>
+        
+    </ul>
+    <form class="navbar-form navbar-header">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="SEARCH">
+            <div class="input-group-btn">
+                <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+        </div>
+    </form><br><br><br>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="C:\Users\balas\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Screenshot 2022-03-30 121318.png" alt="Logo" style="width:100px;">
+        </div>
+        <div id="mynav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="file:///C:/Users/Prasa/lfile4.html">HOME</a></li>
+            <li><a href="file:///C:/Users/Prasa/Downloads/PhotoFolio%20Free%20Website%20Template%20-%20Free-CSS.com/photofolio/SAMPL%203.html">DEPARTMENTS</a></li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="file:///C:/Users/Prasa/sampl1.html">LIFE AT BIT<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+        
+                    <li><a href="file:///C:/Users/Prasa/sampl1.html">Campus</a></li>
+                 
+                    <li><a href="file:///C:/Users/Prasa/sampl1.html">SPORTS</a></li>
+                    <li><a href="file:///C:/Users/Prasa/sampl1.html">HOSTEL&MEDICAL FACILITY</a></li>
+                  
+             
+
+                </ul>
+            </li>
+            
+        </ul>
+        
+ 
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="file:///C:/Users/Prasa/lfile6.html">ACHEIVEMENT</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="file:///C:/Users/Prasa/SAMPL2.html">TRAINING AND PLACEMENT</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(243, 239, 239);
+  color: rgb(153, 122, 122);
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.5;
+}
+
+    .mySlides {display:none;}
+    footer {
+        color: white;
+      background-color: #2C3539;
+      padding: 25px;
+    }
+    img {
+  border: 10 px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(139, 143, 145, 0.5);
+}
+    img:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+  
+
+
+    </style>
+</style>
+</head>
+<BODY>
+
+
+<div class="w3-content w3-section" style="max-width:1600px">
+  <img class="mySlides" src="https://www.bitsathy.ac.in/assets/images/facilities/campus/16/01.webp" style="width:100%" height="300PX">
+  <img class="mySlides" src="https://www.bitsathy.ac.in/assets/images/facilities/campus/5/01.webp" style="width:100%" height="300PX">
+  <img class="mySlides" src="https://www.bitsathy.ac.in/assets/images/facilities/campus/2/01.webp" style="width:100%" height="300px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+<div class="jumbotron">
+    <h1>COLLEGE</h1>
+
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/1/01.webp" style="height:250px">
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/2/01.webp" style="height:250px">
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/17/01.webp"  style="height:250px">
+  
+   </div><br>
+   <br><br>
+   <div class="jumbotron">
+    <h1>SKILLS</h1>
+
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/37/01.webp" style="height:250px">
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/36/01.webp" style="height:250px" >
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/13/01.webp" style="height:250px">
+
+   </div><br>
+   <div class="jumbotron">
+    <h1>HOSTEL AND MEDICAL</h1>
+
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/29/01.webp" style="height:250px;" >
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/20/01.webp" style="height:250px;">
+    <img class="img-rounded"src="https://www.bitsathy.ac.in/assets/images/facilities/campus/5/01.webp" style="height:250px;">   
+    
+   </div><br>
+   
+    
+   <footer class="container-fluid text-center">
+
+        <footer> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap" rel="stylesheet">
+        
+            <link rel="stylesheet" href="css/ionicons.min.css">
+            <link rel="stylesheet" href="css/style.css">
+      </head>
+      <body>
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer-10">
+                <div class="container">
+                    <div class="row mb-5 pb-3 no-gutters">
+                        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                            <div class="con con-1 w-100 py-5">
+                                <div class="con-info w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="ion-ios-call"></span>
+                                    </div>
+                                    <div class="text">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                            <div class="con con-2 w-100 py-5">
+                                <div class="con-info w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="ion-ios-mail"></span>
+                                    </div>
+                                    <div class="text">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+                            <div class="con con-3 w-100 py-5">
+                                <div class="con-info w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="ion-ios-pin"></span>
+                                    </div>
+                                    <div class="text">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="background-color: rgb(177, 208, 212);"   class="col-md-7">
+                            <div  class="row">
+                                <div style="background-color: rgb(171, 215, 226);" class="col-md-4 mb-md-0 mb-4">
+                                    <h2 style="background-color: rgb(156, 179, 179);" class="footer-heading">PNS MANAGEMENT</h2>
+                                    <ul class="list-unstyled">
+                          <li><a href="#" class="d-block">STATUTORY BODIES</a></li>
+                          <li><a href="#" class="d-block">NON STATUTORY BODIES</a></li>
+                          <li><a href="#" class="d-block">GRIEVANCE REGISTRATION PORTAL</a></li>
+
+                        </ul>
+                                </div>
+                                <div style="background-color: rgb(171, 215, 226);" class="col-md-4 mb-md-0 mb-4">
+                                    <h2 style="background-color: rgb(156, 179, 179);" class="footer-heading">WEB LINKS</h2>
+                                    <ul class="list-unstyled">
+                          <li><a href="#" class="d-block">MANDATORY-DISCLOURE</a></li>
+                          <li><a href="#" class="d-block">CAREERS-APPLY TO PNS</a></li>
+                          <li><a href="#" class="d-block">PUBLIC NOTICE</a></li>
+                          <li><a href="#" class="d-block">NISP</a></li>
+                        </ul>
+                                </div>
+                                <div style="background-color: rgb(171, 215, 226);" class="col-md-4 mb-md-0 mb-4">
+                                    <h2 style="background-color: rgb(156, 179, 179);" class="footer-heading">TOP LINKS</h2>
+                                    <ul class="list-unstyled">
+                          <li><a href="https://www.aicte-india.org/" class="d-block">AICTE</a></li>
+                          <li><a href="https://www.ugc.ac.in/" class="d-block">UGC</a></li>
+                          <li><a href="https://www.nbaind.org/" class="d-block">NBA</a></li>
+                          <li><a href="https://dst.gov.in/" class="d-block">DST</a></li>
+                          <li><a href="https://www.annauniv.edu/" class="d-block">ANNA UNIVERSITY</a></li>
+                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="col-md-5 mb-md-0 mb-4">
+                            <h2 style="background-color: rgb(137, 126, 156);border: 5PX solid rgb(251, 248, 252);" class="footer-heading">Subscribe</h2>
+                            <form action="#" class="subscribe-form">
+                  <div style="background-color: rgb(214, 186, 221); border: 5PX solid;" class="form-group d-flex">
+                    <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+                    <button style="background-color: darkgray;" type="submit" class="form-control submit rounded-right">Subscribe</button>
+                  </div><BR>
+                    <CENTER>
+               <h1 style="border:7PX solid rgb(199, 205, 209);background-color: rgb(224, 221, 233);">HAPPY LEARNING !!!</h1></CENTER>
+            </footer>
+  </footer>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">

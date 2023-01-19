@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+    <header>
+        <h1 style="margin-top: 5px;">BANNARI AMMAN INSTITUE OF TECHNOLOGY</h1>
+    </header>
+    <style>* {
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+        background-color: rgb(106, 128, 106);
+    }
+    header {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+        box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+        margin-top: auto;
+        margin: 10px;
+    }
+    h1 {
+        letter-spacing: 1.5vw;
+        font-family: 'system-ui';
+        text-transform: uppercase;
+        text-align: center;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+        width: 100%;
+        background: url("https://media.istockphoto.com/photos/graduation-cap-and-diploma-on-table-with-books-picture-id1154631974?k=20&m=1154631974&s=612x612&w=0&h=RVXFHdj4CtLUAg6jVay-nKS6PiwwlmdqbvGN_k33lNQ=") no-repeat center center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+    .form_class {
+        width: 500px;
+        padding: 40px;
+        border-radius: 8px;
+        background-color: rgb(234, 242, 243);
+        font-family: 'system-ui';
+        box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+        margin-top: 10px;
+    }
+    .form_div {
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    .form_div > label {
+        letter-spacing: 3px;
+        font-size: 1rem;
+        margin-top:10px ;
+    }
+    .info_div {
+        text-align: center;
+        margin-top: 20px;
+        margin-top: 10px;
+    }
+    .info_div {
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+    .field_class {
+        width: 100%;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px 0px;
+        text-indent: 6px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'system-ui';
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+    }
+    .submit_class {
+        border-style: none;
+        border-radius: 5px;
+        background-color: #FFE6D4;
+        padding: 8px 20px;
+        font-family: 'system-ui';
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+        cursor: pointer;
+    }
+    footer {
+        height: 10vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -5px -5px 10px rgb(0,0,0,0.3);
+    }
+    footer > p {
+        text-align: center;
+        font-family: 'system-ui';
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+    footer > p > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+    
+    </style>
+    <main>
+
+                    <form id="login_form" class="form_class" action="file:///C:/Users/Prasa/INTERSHIP%20FINAL.html" method="post">
+                        <div class="form_div">
+                            <CENTER>
+                           
+                            <label style="color: rgb(21, 22, 19);">NAME:</label>
+                            <input class="field_class" name="login_txt" type="text" placeholder="USERNAME" autofocus>
+                            <label style="color: rgb(43, 44, 42);">EMAIL:</label>
+                            <input id="pass" class="field_class" name="password_txt" type="password" placeholder="PASSWORD">
+                            <label style="color: rgb(38, 41, 35);">GENDER:</label>
+                       
+                            <div class="p-t-10">
+                                <label class="radio-container m-r-45">Male
+                                    <input type="radio" checked="checked" name="gender">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label style="background-color: rgba(237, 243, 242, 0.301);"  class="radio-container">Female
+                                    <input type="radio" name="gender">
+                                    <span class="checkmark"></span>
+                                </label><br>
+                            <br>
+                            <label style="color: rgb(61, 65, 55);">CHOOSE THE DEGREE</label>
+                            <label> <div class="input-group">
+                                <label class="label"></label>
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="subject">
+                                        <option disabled="disabled" selected="selected">Choose option</option>
+                                        <option>B.E</option>
+                                        <option>B.TECH</option>
+                                        <option>M.E</option>
+                                        <option>M.TECH</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div></label><BR>
+            
+                                <label style="color: rgb(37, 41, 33);">PHONE NUMBER</label>
+                            <input id="pass" class="field_class" name="password_txt" type="password" placeholder="CONTACT">
+
+                        </div>
+
+                        </div>
+                    </form>
+                <button  class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">REGISTER</button>
+           
+    </main>
+    <footer>
+        <p>BIT<A href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp"></a></p>
+    </footer> 
+</body>

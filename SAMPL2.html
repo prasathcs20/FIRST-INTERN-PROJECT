@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+    
+    
+    /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+    
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+    @import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
+    
+    /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+     2) font-family: 'Poppins', sans-serif;
+     ----------------------------------------*****/
+    
+    
+    /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+    
+    @import url(animate.min.css);
+    @import url(normalize.css);
+    @import url(icomoon.css);
+    @import url(font-awesome.min.css);
+    @import url(meanmenu.css);
+    @import url(owl.carousel.min.css);
+    @import url(swiper.min.css);
+    @import url(slick.css);
+    @import url(jquery.fancybox.min.css);
+    @import url(jquery-ui.css);
+    @import url(nice-select.css);
+    
+    /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+    
+    * {
+         box-sizing: border-box !important;
+    }
+    
+    html {
+         scroll-behavior: smooth;
+    }
+    
+    body {
+         color: #666666;
+         font-size: 14px;
+         font-family: 'Poppins', sans-serif;
+         line-height: 1.80857;
+         font-weight: normal;
+    }
+    
+    a {
+         color: #1f1f1f;
+         text-decoration: none !important;
+         outline: none !important;
+         -webkit-transition: all .3s ease-in-out;
+         -moz-transition: all .3s ease-in-out;
+         -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+         transition: all .3s ease-in-out;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+         letter-spacing: 0;
+         font-weight: normal;
+         position: relative;
+         padding: 0 0 10px 0;
+         font-weight: normal;
+         line-height: normal;
+         color: #111111;
+         margin: 0
+    }
+    
+    h1 {
+         font-size: 24px;
+    }
+    
+    h2 {
+         font-size: 22px;
+    }
+    
+    h3 {
+         font-size: 18px;
+    }
+    
+    h4 {
+         font-size: 16px
+    }
+    
+    h5 {
+         font-size: 14px
+    }
+    
+    h6 {
+         font-size: 13px
+    }
+    
+    *,
+    *::after,
+    *::before {
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    }
+    
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+         color: #212121;
+         text-decoration: none!important;
+         opacity: 1
+    }
+    
+    button:focus {
+         outline: none;
+    }
+    
+    ul,
+    li,
+    ol {
+         margin: 0px;
+         padding: 0px;
+         list-style: none;
+    }
+    
+    p {
+         margin: 0px;
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 24px;
+    }
+    
+    a {
+         color: #222222;
+         text-decoration: none;
+         outline: none !important;
+    }
+    
+    a,
+    .btn {
+         text-decoration: none !important;
+         outline: none !important;
+         -webkit-transition: all .3s ease-in-out;
+         -moz-transition: all .3s ease-in-out;
+         -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+         transition: all .3s ease-in-out;
+    }
+    
+    img {
+         max-width: 100%;
+         height: auto;
+    }
+    
+     :focus {
+         outline: 0;
+    }
+    
+    .btn-custom {
+         margin-top: 20px;
+         background-color: transparent !important;
+         border: 2px solid #ddd;
+         padding: 12px 40px;
+         font-size: 16px;
+    }
+    
+    .lead {
+         font-size: 18px;
+         line-height: 30px;
+         color: #767676;
+         margin: 0;
+         padding: 0;
+    }
+    
+    .form-control:focus {
+         border-color: #ffffff !important;
+         box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+    }
+    
+    .navbar-form input {
+         border: none !important;
+    }
+    
+    .badge {
+         font-weight: 500;
+    }
+    
+    blockquote {
+         margin: 20px 0 20px;
+         padding: 30px;
+    }
+    
+    button {
+         border: 0;
+         margin: 0;
+         padding: 0;
+         cursor: pointer;
+    }
+    
+    .full {
+         float: left;
+         width: 100%;
+    }
+    
+    .layout_padding {
+         padding-top: 90px;
+         padding-bottom: 90px;
+    }
+    
+    .layout_padding_2 {
+         padding-top: 75px;
+         padding-bottom: 75px;
+    }
+    
+    .light_silver {
+         background: #f9f9f9;
+    }
+    
+    .theme_bg {
+         background: #38c8a8;
+    }
+    
+    .margin_top_30 {
+         margin-top: 30px !important;
+    }
+    
+    .full {
+         width: 100%;
+         float: left;
+         margin: 0;
+         padding: 0;
+    }
+    
+    
+    /**-- heading section --**/
+    
+    
+    /*---------------------------- preloader area ----------------------------*/
+    
+    .loader_bg {
+         position: fixed;
+         z-index: 9999999;
+         background: #fff;
+         width: 100%;
+         height: 100%;
+    }
+    
+    .loader {
+         height: 100%;
+         width: 100%;
+         position: absolute;
+         left: 0;
+         top: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    
+    .loader img {
+         width: 280px;
+    }
+    
+    
+    /*-- navigation--*/
+    
+    .navigation.navbar {
+         float: right;
+         padding: 27px;
+    }
+    
+    .navigation.navbar-dark .navbar-nav .nav-link {
+         padding: 0px 20px;
+         color: #fff;
+         font-size: 16px;
+         line-height: 20px;
+         text-transform: uppercase;
+    }
+    
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+         color: #000;
+    }
+    
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+         color: #000;
+    }
+    
+    .navbar-expand-md .navbar-nav {
+         padding-right: 10px;
+    }
+    
+    .header_information {
+         background-color: #00aeef;
+         padding: 0 0;
+         padding-top: 0px;
+         padding-top: 0px;
+         margin-top: 0;
+         margin-right: 0;
+         margin-bottom: 0;
+         position: absolute;
+         width: 100%;
+         height: 98px;
+         margin-top: -20px;
+         right: 0;
+    }
+    
+    .header_information::before {
+         width: 84px;
+         height: 98px;
+         background: url(../images/top_arrow1.png);
+         background-repeat: repeat;
+         display: block;
+         content: "";
+         position: absolute;
+         top: 0;
+         left: 0px;
+         background-repeat: no-repeat;
+    }
+    
+    .sign_btn {
+         padding-left: 50px;
+    }
+    
+    .sign_btn a {
+         background-color: #fff;
+         display: inline-block;
+         padding: 7px 35px;
+         border-radius: 20px;
+         color: #292e39;
+         font-size: 17px;
+    }
+    
+    .sign_btn a:hover {
+         color: #fff;
+         background: #000;
+    }
+    
+    
+    /*-- header area --*/
+    
+    
+    /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
+    
+    
+    /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+    
+    .header {
+         width: 100%;
+         background: #fff;
+         padding: 20px 0px;
+    }
+    
+    .logo a {
+         font-size: 40px;
+         font-weight: bold;
+         text-transform: uppercase;
+         color: #fff;
+         line-height: 40px;
+    }
+    
+    
+    /** banner section **/
+    
+    .relative {
+         position: absolute;
+         top: 56%;
+         transform: translateY(-44%);
+         padding: 0;
+         bottom: auto;
+    }
+    
+    .banner_main {
+         position: relative;
+    }
+    
+    .carousel-indicators .active {
+         background: #00aeef;
+    }
+    
+    .carousel-indicators li {
+         width: 20px;
+         height: 20px;
+         background: #fafcfd;
+         border-radius: 20px;
+    }
+    
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+         display: none;
+    }
+    
+    .carousel-indicators {
+         bottom: 50px;
+    }
+    
+    .carousel-item img {
+         width: 100%;
+    }
+    
+    .carousel-caption h1 {
+         color: #08091e;
+         font-size: 65px;
+         line-height: 80px;
+         padding-bottom: 35px;
+         font-weight: bold;
+    }
+    
+    .carousel-caption span {
+         color: #6dbcf1;
+         font-size: 50px;
+         line-height: 50px;
+         font-weight: 500;
+         padding-bottom: 20px;
+    }
+    
+    .carousel-caption a {
+         font-size: 17px;
+         background-color: #00aeef;
+         color: #fff;
+         font-weight: 500;
+         padding: 13px 0px;
+         width: 100%;
+         max-width: 190px;
+         text-align: center;
+         display: inline-block;
+         transition: ease-in all 0.5s;
+         margin-top: 50px;
+         border-radius: 30px;
+    }
+    
+    .carousel-caption a:hover {
+         background-color: #000;
+         color: #fff;
+         transition: ease-in all 0.5s;
+    }
+    
+    
+    /** banner section **/
+    
+    .titlepage {
+         text-align: center;
+         padding-bottom: 60px;
+    }
+    
+    .titlepage h2 {
+         font-size: 45px;
+         color: #0b0503;
+         line-height: 50px;
+         font-weight: bold;
+         padding: 0;
+    }
+    
+    .titlepage span {
+         background: #00a8e7;
+         display: block;
+         height: 10px;
+         width: 90px;
+    }
+    
+    .d_flex {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+    }
+    
+    .read_more {
+         font-size: 17px;
+         background-color: transparent;
+         color: #7a7a7a;
+         padding: 8px 0px;
+         width: 100%;
+         max-width: 190px;
+         text-align: center;
+         display: inline-block;
+         border-radius: 30px;
+         border: #00aaea solid 3px;
+         transition: ease-in all 0.5s;
+    }
+    
+    .read_more i {
+         padding-left: 10px;
+    }
+    
+    .read_more:hover {
+         background: #00aaea;
+         color: #fff !important;
+         transition: ease-in all 0.5s;
+    }
+    
+    
+    /** about section **/
+    
+    .about {
+         background: url(../images/ab_bg.png);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         padding: 90px 0;
+    }
+    
+    .about .titlepage {
+         text-align: left;
+         padding: 0;
+    }
+    
+    .about .titlepage p {
+         color: #292e39;
+         font-size: 17px;
+         line-height: 35px;
+         font-weight: 500;
+         padding: 20px 0px 35px 0px;
+    }
+    
+    .about_img figure {
+         margin: 0;
+    }
+    
+    .about_img figure img {
+         width: 100%;
+    }
+    
+    
+    /** end about section **/
+    
+    
+    /** mobile section **/
+    
+    .mobile {
+         background: url(../images/mo_bg.jpg);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         padding: 90px 0;
+    }
+    
+    .mobile .titlepage {
+         text-align: right;
+         padding: 0;
+    }
+    
+    .mobile .titlepage h2 {
+         color: #fff;
+    }
+    
+    .mobile .titlepage span {
+         margin-left: 58px;
+    }
+    
+    .mobile .titlepage p {
+         color: #fff;
+         font-size: 17px;
+         line-height: 35px;
+         font-weight: 500;
+         padding: 20px 0px 35px 0px;
+    }
+    
+    .mobile_img figure {
+         margin: 0;
+    }
+    
+    .mobile_img figure img {
+         width: 100%;
+    }
+    
+    .mobile .titlepage .read_more {
+         border: #fff solid 3px;
+         color: #fff;
+    }
+    
+    
+    /** mobile section **/
+    
+    
+    /** clients section **/
+    
+    .clients {
+         margin-top: 40px;
+         padding-top: 60px;
+    }
+    
+    .clients .titlepage h2 {
+         color: #202021;
+    }
+    
+    .clients .titlepage span {
+         margin-left: 56px;
+    }
+    
+    .clients_box {
+         text-align: center;
+         background: #e2e3e3;
+         padding: 50px 15px;
+         border-radius: 15px;
+         position: relative;
+    }
+    
+    .clients_box p {
+         font-size: 17px;
+         line-height: 35px;
+    }
+    
+    .clients_box::after {
+         position: absolute;
+         content: "";
+         width: 42px;
+         height: 67px;
+         bottom: -65px;
+         background: url(../images/cli_cross.png);
+         background-repeat: no-repeat;
+    }
+    
+    .jonu {
+         padding-top: 72px;
+         text-align: center;
+    }
+    
+    .jonu h3 {
+         padding: 0px 0px 0px 0px;
+         color: #0b0503;
+         font-size: 25px;
+    }
+    
+    .jonu strong {
+         display: block;
+         color: #00aeef;
+         font-size: 17px;
+         padding-bottom: 50px;
+    }
+    
+    
+    /** end clients section **/
+    
+    
+    /** contact section **/
+    
+    .contact {
+         background: #042431;
+         margin-top: 90px;
+         padding: 90px 0;
+    }
+    
+    .contact .titlepage h2 {
+         color: #fff;
+    }
+    
+    .main_form .contactus {
+         border: inherit;
+         margin-bottom: 20px;
+         width: 100%;
+         height: 60px;
+         background: transparent;
+         color: #f9fcfd;
+         font-size: 18px;
+         font-weight: normal;
+         border-bottom: #fff solid 1px;
+    }
+    
+    .main_form .send_btn {
+         font-size: 17px;
+         transition: ease-in all 0.5s;
+         background-color: transparent;
+         text-transform: uppercase;
+         font-weight: 500;
+         border: #00aeef solid 3px;
+         color: #f9fcfd;
+         padding: 8px 0px;
+         margin: 0 auto;
+         max-width: 180px;
+         width: 100%;
+         display: block;
+         border-radius: 30px;
+         margin-top: 30px;
+    }
+    
+    .main_form .send_btn:hover {
+         background-color: #00aeef;
+         transition: ease-in all 0.5s;
+         color: #fff;
+    }
+    
+    #request *::placeholder {
+         color: #f9fcfd;
+         opacity: 1;
+    }
+    
+    
+    /** end contact section **/
+    
+    
+    /** footer **/
+    
+    .footer {
+         background: #042431;
+         text-align: center;
+    }
+    
+    .border-top {
+         border-top: #fff solid 1px;
+         padding-top: 90px;
+    }
+    
+    .footer h3 {
+         color: #fff;
+         font-weight: 500;
+         font-size: 17px;
+         line-height: 20px;
+         text-align: left;
+         padding-bottom: 20px;
+    }
+    
+    .footer_form {
+         display: flex;
+         border-bottom: #4d636c solid 1px;
+         align-items: center;
+         justify-content: center;
+    }
+    
+    .enter {
+         border: inherit;
+         width: 71%;
+         background: transparent;
+         color: #4d636c;
+         font-size: 18px;
+         font-weight: normal;
+         border-bottom: initial;
+    }
+    
+    .submit {
+         font-size: 17px;
+         transition: ease-in all 0.5s;
+         background-color: transparent;
+         text-transform: uppercase;
+         font-weight: 500;
+         border: #00aeef solid 3px;
+         color: #4d636c;
+         padding: 5px 0px;
+         margin-bottom: 5px;
+         max-width: 150px;
+         width: 100%;
+         display: block;
+         border-radius: 30px;
+    }
+    
+    .submit:hover {
+         background-color: #00aeef;
+         transition: ease-in all 0.5s;
+         color: #fff;
+    }
+    
+    ul.cont li {
+         color: #8a9397;
+         font-size: 17px;
+         line-height: 32px;
+         text-align: left;
+    }
+    
+    .copyright {
+         margin-top: 90px;
+         padding: 20px 0px;
+         background-color: #00aeef;
+    }
+    
+    .copyright p {
+         color: #fff;
+         font-size: 18px;
+         font-weight: 300;
+         line-height: 22px;
+         text-align: center;
+    }
+    
+    .copyright a {
+         color: #fff;
+    }
+    
+    .copyright a:hover {
+         color: #000;
+    }
+    
+    
+    /** end footer **/
+    
+    
+    /** inner page css **/
+    
+    .margin_to90 .footer {
+         margin-top: 90px;
+    }
+    
+    .ourwork {
+         margin: 90px 0 60px 0;
+    }
+    
+    .our_box {
+         margin-bottom: 30px;
+    }
+    
+    .our_box figure {
+         margin: 0;
+    }
+    
+    .our_box figure img {
+         width: 100%;
+    }
+    body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer-gray {
+  background-color: #e9d2d2;
+  width: 100%;
+}
+
+.footer-custom {
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.footer-custom:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-lists:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-hdr {
+  color: #000;
+  font: 22px/1.4 'BebasNeueRegular', BebasNeue, 'Bebas Neue', Arial, sans-serif;
+  margin: 1em 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .ftr-hdr {
+    font-size: 18px;
+  }
+}
+
+.footer-list-wrap {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 568px) {
+  .footer-list-wrap {
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-list-wrap {
+    width: 25%;
+  }
+}
+
+.ftr-links-sub {
+  padding: 0;
+  margin: 0;
+}
+
+.ftr-links-sub:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-links-sub li {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 0;
+  color: #888;
+  font: normal normal 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  /*width: 150px;*/
+}
+
+.footer-custom a,
+.footer-custom a:link,
+.footer-custom a:visited,
+.ftr-links-sub li .link {
+  text-decoration: none;
+  color: #888;
+  padding: 5px 0;
+  display: block;
+}
+
+.footer-custom .footer-legal a {
+  display: inline;
+}
+
+.footer-custom a:hover,
+.footer-custom a:active,
+.ftr-links-sub li .link:hover {
+  text-decoration: underline;
+  color: #888;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-custom a, .footer-custom a:link, .footer-custom a:visited, .ftr-links-sub li .link {
+    padding: 0;
+  }
+}
+/* BEGIN EMAIL CAPTURE STYLES*/
+
+.footer-email {
+  text-align: center;
+}
+
+#ftrEmailForm {
+  height: 44px;
+}
+
+#ftrEmailForm .error {
+  display: none;
+  color: red;
+  text-align: left;
+}
+
+#ftrEmailForm #ftrEmailInput {
+  background: none repeat scroll 0 0 #FFF;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  color: #888;
+  float: left;
+  font: normal normal 14px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 5px;
+  width: 70%;
+  height: 100%;
+}
+
+#ftrEmailForm #ftrEmailInput:hover {
+  border: 1px solid #888;
+}
+
+#ftrEmailForm #ftrEmailInput:focus {
+  border: 1px solid #ef9223;
+  outline: #ef9223 auto 5px;
+}
+
+#ftrEmailForm .button {
+  width: 30%;
+  height: 100%;
+  padding: 5px;
+  float: left;
+  border: 1px solid #DFDFDF;
+  box-sizing: border-box;
+  color: #000;
+  font: normal bold 18px/1 BebasFamily, BebasNeueRegular, "Bebas Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFF;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #e1e1e1));
+  background: -webkit-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -moz-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -ms-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -o-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: linear-gradient(to bottom, white 0, #e1e1e1 100%);
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+}
+
+#ftrEmailForm .button:hover,
+#ftrEmailForm .button:active {
+  background: black;
+  color: #FFF;
+  outline: none;
+}
+/* BEGIN SOCIAL STYLES*/
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-social ul:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-social li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-lists {
+    width: 100%;
+  }
+  .footer-email {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  .footer-social {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .footer-lists {
+    width: 66.6666%;
+    float: left;
+  }
+  .footer-email {
+    width: 33.3333%;
+  }
+  .footer-social {
+    width: 33.3333%;
+    float: right;
+    margin-left: 0;
+  }
+}
+
+.footer-legal {
+  padding: 15px 0 0;
+  clear: left;
+}
+
+.footer-payment {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-legal {
+    width: 66.6666%;
+    float: left;
+  }
+  .footer-payment {
+    width: 33.3333%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .footer-payment {
+    text-align: left;
+  }
+}
+
+.footer-payment ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-payment ul li {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+@media only screen and (min-width: 1008px) {
+  .footer-payment ul li.ftr-stella {
+    margin-left: 0;
+  }
+}
+
+.ftr-bbb span,
+.ftr-stella span {
+  background-image: url("http://cache1.artprintimages.com/images/jump_pages/rebrand2/images/subnav2.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.ftr-bbb span {
+  background-position: -339px -8px;
+  width: 96px;
+}
+
+.ftr-stella span {
+  background-position: -339px -107px;
+  width: 57px;
+}
+    
+    </style>
+<body>
+     <CENTER>
+    <!-- Services Start -->
+    <nav style="background-color: rgb(233, 252, 252); class="navbar navbar-inverse navbar-fixed-top">
+        
+     <ul class="nav navbar-nav navbar-right">
+         <li><button class="btn btn-success navbar-btn">REGISTER</button></li>
+         
+     </ul>
+     <form class="navbar-form navbar-header">
+         <div class="input-group">
+             <input type="text" class="form-control" placeholder="SEARCH">
+             <div class="input-group-btn">
+                 <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+             </div>
+         </div>
+     </form><br><br><br>
+     <div class="container-fluid">
+         <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <img src="C:\Users\balas\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Screenshot 2022-03-30 121318.png" alt="Logo" style="width:100px;">
+         </div>
+         <div id="mynav" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+             <li><a href="file:///C:/Users/Prasa/lfile4.html">HOME</a></li>
+             <li><a href="file:///C:/Users/Prasa/Downloads/PhotoFolio%20Free%20Website%20Template%20-%20Free-CSS.com/photofolio/SAMPL%203.html">DEPARTMENTS</a></li>
+ 
+             <li class="dropdown">
+                 <a class="dropdown-toggle" data-toggle="dropdown" href="file:///C:/Users/Prasa/sampl1.html">LIFE AT BIT<span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+         
+                     <li><a href="file:///C:/Users/Prasa/sampl1.html">Campus</a></li>
+                  
+                     <li><a href="file:///C:/Users/Prasa/sampl1.html">SPORTS</a></li>
+                     <li><a href="file:///C:/Users/Prasa/sampl1.html">HOSTEL&MEDICAL FACILITY</a></li>
+                   
+              
+ 
+                 </ul>
+             </li>
+             
+         </ul>
+         
+  
+         <ul class="nav navbar-nav navbar-right">
+             
+             <li><a href="file:///C:/Users/Prasa/lfile6.html">ACHEIVEMENT</a></li>
+             <li><a href="#"></a></li>
+             <li><a href="file:///C:/Users/Prasa/SAMPL2.html">TRAINING AND PLACEMENT</a></li>
+             <li><a href="#"></a></li>
+         </ul>
+     </div>
+ </div>
+ </nav>
+
+     <!-- clients -->
+     <div class="clients">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6 offset-md-3">
+                 <div class="titlepage">
+                    <div class="row">
+                        <div class="col-md-12">
+                    
+                    <h2>TRAINING AND PLACEMENT</h2>
+                    <BR>
+                        <BR>
+                    <P>The training and placement team believes in the thought, “The outcome of education is apparent when careers sharpen your horizons” and we strive every minute working on it. Students’ skills are molded through multifarious training sessions that include technical, aptitude, verbal and soft skill. By understanding their level of grasping and delivering, the students are trained individually, based on their needs. To keep pace with the world, multiplicity of career is essential and that drives us to provide training and guidance for those who aspire to crack the competitive exams. The ambience in Training and Placement department is an inspiration, for its spatial dimensions of Interview cubicles, Group Discussion halls and Guest Lounge that render students a complete professional environment to learn and equip. A team of passionate staff work with a single motive for upgrading the students to the next phase of life by all possible means.</P>
+                   <Br><BR>
+
+                    <H2>VIRTUAL TOUR</H2>
+                
+               
+                    <iframe src="https://bitcampustour.netlify.app/index.htm?media-index=111" height="300" width="500" title="Iframe Example"></iframe>
+                    <BR> <BR> <BFR>
+                    <h2>CLIENT COMMENTS</h2>
+                    <span></span>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="clients_box">
+                    <p>"BITians in Soliton have gone places with their passion for engineering and commitment to excellence. Today, we see them playing the roles of leaders, star programmers and raring rookies. As we delve deeper in the latest technology domains, we look forward to many more BITians joining us in this exciting journey, and continue to strengthen our decade long association with the Bannari Amman Institute of Technology."</p>
+                 </div>
+                 <div class="jonu">
+                    <img src="https://www.bitsathy.ac.in/assets/images/placement/gallery/ganesh.webp?v=032222" alt="#"/>
+                    <h3>DR.GANESH DEVARAJ
+                        CEO, Soliton Technologies, Bangalore</h3>
+                  
+                 </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-md-12">
+                   <div class="clients_box">
+                    <CENTER>
+                      <p>We are extremely delighted to see the consistent quality of students Bannari Amman Institute of Technology produces year on year. The focus is not only on academic excellence but also on all aspects of student's development. With strong alliances and partnership with industries and best in class infrastructure, the institute has lot to offer to students growth and enhancement. We wish Bannari Amman Institute of Technology our best wishes to scale new heights in each endeavour.</p>
+                   </div>
+                   <div class="jonu">
+                      <img src="https://www.bitsathy.ac.in/assets/images/placement/gallery/ram.webp?v=032222" alt="#">
+                      <h3>DR.GANESH DEVARAJ
+                          CEO, Soliton Technologies, Bangalore</h3>
+                    
+                   </div>
+               </CENTER>
+                </div>
+           </div>
+        </div>
+     </div>
+</CENTER>
+     <footer> 
+          <footer>
+               <div class="footer-gray">
+                 <div class="footer-custom">
+                   <div class="footer-lists">
+                     <div class="footer-list-wrap">
+                       <h6 class="ftr-hdr">Order Toll Free</h6>
+                       <ul class="ftr-links-sub">
+                         <li>800-952-5592</li>
+                       </ul>
+                       <h6 class="ftr-hdr">International</h6>
+                       <ul class="ftr-links-sub">
+                         <li><a href="http://www.art.fr" rel="nofollow">France</a></li>
+                         <li><a href="https://www.art.co.uk" rel="nofollow">United Kingdom</a></li>
+                       </ul>
+                     </div>
+                     <!--/.footer-list-wrap-->
+                     <div class="footer-list-wrap">
+                       <h6 class="ftr-hdr">WEB LINKS</h6>
+                       <ul class="ftr-links-sub">
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">MANDATORY DISCLOURE</a></li>
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">CAREERS-APPLY TO BIT</a></li>
+
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">PUBLIC NOTICES</a></li>
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">BIT TBI</a></li>
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">BIT WIKI</a></li>
+                         <li><a href="https://docs.bitsathy.ac.in/naac/pdf/aicte_mandatory_disclosure.pdf" rel="nofollow">NISP</a></li>
+                       </ul>
+                     </div>
+                     <div class="footer-list-wrap">
+                       <h6 class="ftr-hdr">IMPORTANT LINKS</h6>
+                       <ul class="ftr-links-sub">
+                         <li><a href="https://www.aicte-india.org/" rel="nofollow">AICTE</a></li>
+                         <li><a href="https://www.ugc.ac.in/" rel="nofollow">UGC</a></li>
+                         <li><a href="https://www.aicte-india.org/" rel="nofollow">ANNA UNIVERSITY</a></li>
+
+                       </ul>
+                     </div>
+                     <!--/.footer-list-wrap-->
+                     <div class="footer-list-wrap">
+                       <h6 class="ftr-hdr">COMMITTIES</h6>
+                       <ul class="ftr-links-sub">
+                         <art:content rule="!loggedin">
+                           <li class="ftr-Login"><span class="link login-trigger">STATUTORY BODIES</span></li>
+                           <li><span class="link" onclick="link('/asp/secure/your_account/track_orders-asp/_/posters.htm')">NON STATUTORY BODIES</span></li>
+                         </art:content>
+                         <art:content rule="loggedin">
+                           <li class="ftr-Login"><span class="link ftr-access-my-account">GRIEVANCE REGISTRATION PORTAL</span></li>
+
+                         </art:content>
+                       </ul>
+                     </div>
+                     <!--/.footer-list-wrap-->
+                   </div>
+                   <!--/.footer-lists-->
+                   <div class="footer-email">
+                     <h6 class="ftr-hdr">Sign up for exclusive offers and inspiration</h6>
+                     <div id="ftr-email" class="ftr-email-form">
+                       <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
+                         <div class="error">Please enter a valid email address</div>
+                         <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Enter email address" />
+                         <!--
+                             -->
+                         <input type="submit" class="button" value="SUBMIT" />
+                         <input type="hidden" name="country_iso2" value="">
+                         <input type="hidden" name="language_iso2" value="en">
+                         <input type="hidden" name="site_domain" value="art.com">
+                         <input type="hidden" name="email_acq_source" value="01-000001">
+                         <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
+                         <input type="hidden" name="brand_id" value="ART">
+                         <input type="hidden" name="_ri_" value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+                       </form>
+                     </div>
+                     <!--/.ftr-email-form-->
+                     <div class="ftr-email-privacy-policy"></div>
+                   </div>
+                   <!--/.footer-email-->
+                   <div class="footer-social">
+                     <h6 class="ftr-hdr">Follow Us</h6>
+                     <ul>
+                       <li>
+                         <a href="https://www.facebook.com/art.com" title="Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+                           <img width="24" height="24" alt="Like us on Facebook" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+                         </a>
+                       </li>
+                       <li>
+                         <a href="https://plus.google.com/108089796661280870153" title="Google+" onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
+                           <img width="24" height="24" alt="Follow us on Google+" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+                         </a>
+                       </li>
+                       <li>
+                         <a href="https://pinterest.com/artdotcom/" target="_blank">
+                           <img width="24" height="24" alt="Follow us on Pinterest" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+                         </a>
+                       </li>
+                       <li>
+                         <a target="_blank" href="http://instagram.com/artdotcom/">
+                           <img width="24" height="24" alt="Follow us on Instagram" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+                         </a>
+                       </li>
+                       <li>
+                         <a href="https://www.twitter.com/artdotcom" title="Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+                           <img width="67" alt="Follow us on Twitter" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+                         </a>
+                       </li>
+                     </ul>
+                   </div>
+                   <!--/.footer-social-->
+   
+                   
+                   <!--/.footer-payment-->
+                 </div>
+                 <!--/.footer-custom-->
+               </div>
+               <!--/.footer-gray-->
+             </footer> <!--  footer -->
+      </footer>
+</body>
+</html>
